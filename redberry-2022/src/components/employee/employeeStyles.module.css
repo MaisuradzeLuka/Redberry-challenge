@@ -1,0 +1,46 @@
+.form {
+  width: 1225px;
+  border-radius: 18px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.name-lastname {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 100px 170px;
+  gap: 60px;
+}
+
+.inputWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.inputWrapper input {
+  height: 60px;
+  border-radius: 8px;
+  width: 100%;
+  border: 1px solid rgba(138, 192, 226, 1);
+  font-size: 18px;
+  padding: 20px;
+  outline: none;
+}
+
+.inputWrapper span {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: normal;
+}
+
+.icon {
+  display: block;
+  margin: 65px auto;
+}

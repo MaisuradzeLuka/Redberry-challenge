@@ -1,0 +1,27 @@
+.btn {
+  border-radius: 50%;
+  background-color: rgba(217, 217, 217, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  color: black;
+  font-size: 23px;
+}
+
+.headerWrapper {
+  display: flex;
+  align-items: center;
+  margin: 50px 70px;
+  gap: 550px;
+}
+
+.pages {
+  display: flex;
+  gap: 50px;
+  font-size: 20px;
+}
+
+/* .pages > :nth-child(2) {
+  color: #f2f2f2;
+} */
