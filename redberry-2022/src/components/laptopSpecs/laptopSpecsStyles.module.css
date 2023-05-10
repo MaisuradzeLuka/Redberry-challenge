@@ -10,16 +10,15 @@
   gap: 50px;
 }
 
-.name-lastname {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  gap: 60px;
-}
-
 .icon {
   display: block;
   margin: 65px auto;
+}
+
+.btnWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .btn {
@@ -27,31 +26,17 @@
   margin-top: 40px;
 }
 
-.header > :nth-child(1)::after {
+.btnBack {
+  background-color: transparent;
+  color: rgba(98, 161, 235, 1);
+}
+
+.header > :nth-child(2)::after {
   content: "";
-  width: 185px;
+  width: 265px;
   position: absolute;
   height: 3px;
   background-color: black;
   bottom: -15px;
-  left: 20px;
-}
-
-@media (max-width: 390px) {
-  .form {
-    width: 390px;
-    padding: 40px 15px;
-  }
-
-  .icon {
-    display: none;
-  }
-
-  .name-lastname {
-    flex-direction: column;
-  }
-
-  .header > :nth-child(1)::after {
-    display: none;
-  }
+  right: 15px;
 }

@@ -12,8 +12,17 @@ const Welcome = () => {
 
   return (
     <section className={welcomeStyles.welcomeWrapper}>
-      <img src="../../public/images/LOGO-02 1 (1).png" alt="redberry logo" />
-      <img src="../../public/images/Frame (1).png" alt="background photo" />
+      <img src="/public/images/LOGO-02 1 (1).png" alt="redberry logo" />
+      <img
+        src="./public/images/Frame (1).png"
+        alt="background photo"
+        className={welcomeStyles.backGround1}
+      />
+      <img
+        src="../../public/images/Group (1).png"
+        alt="background photo"
+        className={welcomeStyles.backGround2}
+      />
       <div className={welcomeStyles.btnWrapper}>
         <Button onClick={clickHandler}>ᲩᲐᲜᲐᲬᲔᲠᲘᲡ ᲓᲐᲛᲐᲢᲔᲑᲐ</Button>
         <Button>ᲩᲐᲜᲐᲬᲔᲠᲔᲑᲘᲡ ᲡᲘᲐ</Button>

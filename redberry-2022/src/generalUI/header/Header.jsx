@@ -9,7 +9,7 @@ const Header = ({ className, clickHandler }) => {
       <Button className={headerStyles.btn} onClick={clickHandler}>
         <AiOutlineLeft />
       </Button>
-      <div className={`${headerStyles.pages}`}>
+      <div className={`${headerStyles.pages} ${className}`}>
         <h3>თანამშრომლის ინფო</h3>
         <h3>ლეპტოპის მახასიათებლები</h3>
       </div>

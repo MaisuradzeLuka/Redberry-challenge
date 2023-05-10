@@ -12,3 +12,21 @@
   flex-direction: column;
   gap: 30px;
 }
+
+.backGround2 {
+  display: none;
+}
+
+@media (max-width: 390px) {
+  .welcomeWrapper {
+    width: 390px;
+  }
+
+  .backGround1 {
+    display: none;
+  }
+
+  .backGround2 {
+    display: block;
+  }
+}
