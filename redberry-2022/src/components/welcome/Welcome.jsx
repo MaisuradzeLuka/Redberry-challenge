@@ -12,9 +12,9 @@ const Welcome = () => {
 
   return (
     <section className={welcomeStyles.welcomeWrapper}>
-      <img src="/public/images/LOGO-02 1 (1).png" alt="redberry logo" />
+      <img src="/public/assets/LOGO-02 1 (1).png" alt="redberry logo" />
       <img
-        src="./public/images/Frame (1).png"
+        src="./public/assets/Frame (1).png"
         alt="background photo"
         className={welcomeStyles.backGround1}
       />
